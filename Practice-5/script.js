@@ -26,7 +26,11 @@ input.addEventListener('keydown', (event) => {
     })
 
     showAll.addEventListener('cliick', () => {
-        document.querySelectorAll('#todoList li')
+        document.querySelectorAll('#todoList li').forEach(li => li.style.display = 'list-item')
+    })
+
+    showDone.addEventListener('click', () => {
+        document.querySelectorAll('#todoList li').forEach(li => list.style.display = li.classList.contains)
     })
 
 
