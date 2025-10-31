@@ -16,6 +16,7 @@ input.addEventListener('keydown', (event) => {
    
         }
     })
+    
       list.addEventListener('click', (event) => {
     if(event.target.tagName === 'LI') {
         event.target.classList.toggle("done")
