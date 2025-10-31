@@ -14,8 +14,8 @@ input.addEventListener('keydown', (event) => {
     li.textContent = input.value;
     list.appendChild(li);
     input.value = ""
-    }
-
+   
+        }
     })
 
       list.addEventListener('click', (event) => {
