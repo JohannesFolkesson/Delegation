@@ -16,8 +16,10 @@ input.addEventListener('keydown', (event) => {
     input.value = ""
     }
 
-    showAll.addEventListener('click', () => {
-        
+   list.addEventListener('click', (event) => {
+    if(event.target.tagName === 'LI') {
+        event.target.classList.toggle('done')
+    }
 
     })
 
