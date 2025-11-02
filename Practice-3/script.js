@@ -23,6 +23,7 @@ list.addEventListener("click", (event) => {
     }
 })
 
+
 showAll.addEventListener('click', () => {
     document.querySelectorAll('#todoList li').forEach(li => li.style.display = 'list-item')
 })
