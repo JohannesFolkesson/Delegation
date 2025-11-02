@@ -1,7 +1,6 @@
 function initializeApp(){
 
 
-
 const input = document.querySelector('#newItem');
 const list = document.querySelector('#todoList');
 const showAll = document.querySelector('#showAll');
@@ -16,7 +15,7 @@ input.addEventListener('keydown', (event) => {
    
         }
     })
-    
+
       list.addEventListener('click', (event) => {
     if(event.target.tagName === 'LI') {
         event.target.classList.toggle("done")
