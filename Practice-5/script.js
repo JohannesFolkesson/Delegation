@@ -1,6 +1,5 @@
 function initializeApp(){
 
-
 const input = document.querySelector('#newItem');
 const list = document.querySelector('#todoList');
 const showAll = document.querySelector('#showAll');
