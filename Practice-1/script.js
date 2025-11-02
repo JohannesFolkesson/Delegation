@@ -16,4 +16,3 @@ btn.addEventListener('click', () => {
     newLi.textContent = 'Banan'
     ul.appendChild(newLi);
 })
-
