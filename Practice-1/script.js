@@ -7,7 +7,6 @@ document.querySelector('ul').addEventListener('click', (e) => {
 })
 
 const ul = document.querySelector('ul');
-
 const btn = document.createElement('button');
 btn.textContent = 'Lägg till ny li';
 document.body.appendChild(btn);
