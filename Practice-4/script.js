@@ -16,4 +16,3 @@ input.addEventListener('keydown', (event) => {
 })
 
 }
-
